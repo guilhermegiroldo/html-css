@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightblue;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        nav{
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 30px;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+
+        footer{
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            border-radius: 10px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside{
+            background-color: rgb(158, 157, 157);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre qualquer coisa</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat laborum nulla enim ab esse, quod hic atque quia reiciendis? Ipsam magnam eius sint a amet iste reprehenderit illum sed nemo?</p>
+                <aside>
+                    <p>Artigo escrito por mim mesmo</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolido por mim</p>
+    </footer>
+</body>
+</html>
